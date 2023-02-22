@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+section{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+section h2{
+    margin-bottom: 30px;
+}
+section .s_new{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section .s_new li{
+    width: 33.3333%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+section .s_new li a{
+    display: block;
+}
+section .s_new li a img{
+    max-width: 100%
+}
+
+section .s_best{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section .s_best li{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    position: relative;
+    margin-bottom: 40px;
+}
+section .s_best li .con_img{
+    background: #eee;
+    margin-bottom: 20px;
+}
+section .s_best li .con_img a{
+    display: block;
+}
+section .s_best li .con_img a img{
+    width: 100%;
+}
+section .s_best li .con_img a span{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background: #000000;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+}
+section .s_best li .con_txt{}
+section .s_best li .con_txt div{
+    margin-bottom: 5px;
+}
+section .s_best li .con_txt p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+section .s_sale{
+    display: flex;
+    flex-wrap: wrap;
+}
+section .s_sale li{
+    display: flex;
+    width: 50%;
+    margin-bottom: 30px;
+}
+section .s_sale li .con_img{
+    background: #f5f5f5;
+    padding: 20px 40px;
+    height: 200px;
+}
+section .s_sale li .con_img a{
+}
+section .s_sale li .con_img a img{
+    max-width: 200px;
+    height: 150px;
+}
+section .s_sale li .con_txtbox{
+    margin: auto 0;
+    margin-left: 20px;
+    line-height: 30px;
+}
+section .s_sale li .con_txtbox a>div{
+    font-size: 19px;
+}
+section .s_sale li .con_txt{
+    display: flex;
+    margin-bottom: 20px;
+}
+section .s_sale li .con_txt div{
+    text-decoration: line-through;
+    color: #c3c3c3;
+    font-size: 15px;
+}
+section .s_sale li .con_txt p{
+    margin-left: 10px;
+    color: #e96f7e;
+    font-size: 18px;
+}
+section .s_sale li .con_txt i{
+    margin-left: 10px;
+    font-size: 18px;
+}
+section .s_sale li .btn button{
+    border: 1px solid #000;
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+section .s_sale li .btn button:nth-child(2){
+    margin-left: 20px;
+}
+section .s_sale li .btn button:hover{
+    background: #e96f7e;
+    color: #fff;
+    border: #fff;
+}
+
+section .s_review{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+section .s_review li{
+    width: 33.333%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section .s_review .review_box{
+    padding: 10px 0;
+    border: 1px solid #adadad;
+    box-sizing: border-box;
+    width: 250px;
+    margin: 0 auto;
+}
+section .s_review .review_box .img{
+    margin-bottom: 10px;
+}
+section .s_review .review_box .img img{}
+section .s_review .review_box .txt{
+    text-align: left;
+    padding-left: 20px;
+    width: 215px;
+    height: calc(1.5em * 1 * 4);
+    line-height: 22px;
+    position: relative;
+}
+section .s_review .review_box .txt div{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+section .s_review .review_box .txt .name{
+    position: absolute;
+    bottom: -7px;
+    left: 20px;
+}
+section .s_review .review_box .txt p{
+    display: inline-block;
+    font-size: 14px;
+}
+section .s_review .review_box .txt i{
+    margin-left: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+section .s_review .review_box .txt img{
+    width: 13px;
+    animation: star 1s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes star{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+section .s_event{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+section .s_event li{
+    width: 50%;
+    margin-bottom: 30px;
+}
+section .s_event li .event_box{}
+section .s_event li .event_box .img{}
+section .s_event li .event_box .img img{
+    margin-bottom: 10px;
+}
+section .s_event li .event_box .txt{
+    display: inline-block;
+}
+section .s_event li .event_box .txt div{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+section .s_event li .event_box .txt p{
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+    
+}

@@ -3,31 +3,14 @@
 
 @media (max-width : 1150px){
     /* sub-sale */
-    section .s_sale li{
-        height: 100%;
+    section .s_sale li .li-wrap{
+        display: block;
     }
-    section .s_sale li .con_img a img{
-        max-width: 150px;
-        height: 150px;
+    section .s_sale li .con_img{
+        width: 80%;
     }
-    section .s_sale li .con_txtbox a>div{
-        font-size: 18px;
-    }
-    section .s_sale li .con_txt div{
-        font-size: 14px;
-    }
-    section .s_sale li .con_txt p{
-        font-size: 16px;
-    }
-    section .s_sale li .con_txt i{
-        font-size: 16px;
-    }
-    section .s_sale li .btn button{
-        padding: 10px 15px;
-    }
-    section .s_sale li .btn button:nth-child(2){
-        margin-left: 10px;
-    }
+
+    /* sub-review */
     .review-box ul li .review_item{
         width: 800px;
     }
@@ -37,6 +20,10 @@
     .review-box ul li .review_container .review_content_box{
         width: 400px;
     }
+    section .s_review{
+        justify-content: space-around;
+    }
+
 }
 
 @media (max-width : 1000px){
@@ -46,12 +33,13 @@
     }
 
     /* sub-sale */
-    section .s_sale li{
-        width: 100%;
+    section .s_sale li .con_img{
+        padding: 10px 20px;
     }
 
 }
 @media (max-width : 768px){
+    /* main */
     .best-list .items .item .img img{
         width: 250px;
         height: 250px;
@@ -137,7 +125,10 @@
     section .s_best li{
         width: 50%;
     }
-    
+    /* sub-event */
+    section .s_event li{
+        width: 100%;
+    }
     
 }
 
@@ -155,6 +146,13 @@
     .tab-cnt .tab-menu .tabs{
         justify-content: center;
     }
+    section .s_sale li .con_txtbox{
+        margin-left: 0;
+    }
+    section .s_sale li .btn button{
+        padding: 5px 10px;
+    }
+    
 }
 
 @media (max-width : 500px){
@@ -178,6 +176,16 @@
     }
     .review-box ul li .review_container .review_content>img{
         display: none;
+    }
+
+    /* sale */
+    section .s_new li{
+        width: 100%;
+    }
+    
+    /* best */
+    section .s_best li{
+        width: 100%;
     }
 }
 

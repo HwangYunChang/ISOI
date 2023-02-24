@@ -29,7 +29,6 @@ body{
     max-width: 1330px;
     margin: 0 auto;
     position: relative;
-    padding: 0 15px;
 }
 .r-align{
     max-width: 1000px;
@@ -224,6 +223,7 @@ footer .f-box .sns li:hover .sns-on:nth-child(2){
     border-radius: 12px;
     height: 5px;
     margin-bottom: 5px;
+    background-color: #000;
 }   
     footer{
         padding-top: 30px;

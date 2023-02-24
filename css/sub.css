@@ -69,27 +69,30 @@ section .s_best li .con_txt p{
 section .s_sale{
     display: flex;
     flex-wrap: wrap;
+    padding: 0 15px;
 }
 section .s_sale li{
-    display: flex;
     width: 50%;
     margin-bottom: 30px;
 }
+section .s_sale li .li-wrap{
+    display: flex;
+}
 section .s_sale li .con_img{
     background: #f5f5f5;
-    padding: 20px 40px;
-    height: 200px;
+    width: 50%;
+    display: block;
 }
-section .s_sale li .con_img a{
+section .s_sale li .con_img img{
+    width: 100%;
 }
-section .s_sale li .con_img a img{
-    max-width: 200px;
-    height: 150px;
-}
+
 section .s_sale li .con_txtbox{
-    margin: auto 0;
     margin-left: 20px;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 section .s_sale li .con_txtbox a>div{
     font-size: 19px;
@@ -114,7 +117,7 @@ section .s_sale li .con_txt i{
 }
 section .s_sale li .btn button{
     border: 1px solid #000;
-    padding: 15px 25px;
+    padding: 10px 20px;
     transition: all 0.5s;
 }
 section .s_sale li .btn button:nth-child(2){
@@ -131,31 +134,44 @@ section .s_review{
     flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 section .s_review li{
-    width: 33.333%;
     text-align: center;
     margin-bottom: 30px;
+}
+section .s_review li:nth-child(4),
+section .s_review li:nth-child(8){
+    margin-right: 0;
 }
 
 section .s_review .review_box{
     padding: 10px 0;
-    border: 1px solid #adadad;
+    border: 1px solid #eee;
     box-sizing: border-box;
-    width: 250px;
+    width: 280px;
     margin: 0 auto;
+    height: 500px;
 }
 section .s_review .review_box .img{
     margin-bottom: 10px;
 }
-section .s_review .review_box .img img{}
+section .s_review .review_box .img img{
+    width: 85%;
+    margin-top: 10px;
+    height: 320px;
+}
 section .s_review .review_box .txt{
     text-align: left;
     padding-left: 20px;
-    width: 215px;
+    width: 85%;
     height: calc(1.5em * 1 * 4);
     line-height: 22px;
     position: relative;
+}
+section .s_review .review_box .txt .product{
+    color: #e96f7e;
 }
 section .s_review .review_box .txt div{
     margin: 0 auto;
@@ -164,7 +180,7 @@ section .s_review .review_box .txt div{
 }
 section .s_review .review_box .txt .name{
     position: absolute;
-    bottom: -7px;
+    bottom: -30px;
     left: 20px;
 }
 section .s_review .review_box .txt p{
@@ -191,15 +207,17 @@ section .s_event{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1300px;
+    padding: 0 15px;
+    justify-content: space-between;
 }
 section .s_event li{
-    width: 50%;
     margin-bottom: 30px;
+    width: 48%;
 }
 section .s_event li .event_box{}
 section .s_event li .event_box .img{}
 section .s_event li .event_box .img img{
+    width: 100%;
     margin-bottom: 10px;
 }
 section .s_event li .event_box .txt{

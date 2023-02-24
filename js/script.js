@@ -6,7 +6,8 @@ $(document).ready(function(){
         autoplaySpeed: 4000,
         arrows: false,
         dots: true,
-        fade:true
+        fade:true,
+        pauseOnHover:false
     })
 
 

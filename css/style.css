@@ -102,6 +102,9 @@ section h2{
 .best-list .items .item .img:hover{
     transform: scale(1.1);
 }
+.best-list .items .item :hover .sectxt0{
+    text-decoration: underline;
+}
 
 .best-list .items .item .sectxt div{}
 .best-list .items .item .sectxt .sectxt1{
